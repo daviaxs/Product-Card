@@ -5,16 +5,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Card</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
   <div id="app">
-    <div class="product-image"></div>
-    <div class="product-details">
+
+    <div id="product-image">
+
+      <button id="btn-360">
+        <img src="utilities/svgs/360.svg" alt="Clique nesse botão para animar o sofá">
+      </button>
+      <button id="btn-close">
+        <img src="utilities/svgs/close.svg" alt="clique deixe botão para deixar de animar o sofá">
+      </button>
+
+      <img id="static" src="utilities/images/sofa-image.jpg" alt="Sofá estático">
+      <img id="animated" src="utilities/images/sofa-gif.gif" alt="Sofá animado">
+
+    </div>
+
+    <div id="product-details">
       <h4>CÓDIGO: 42404</h4>
       <h1>Sofá Margot II - Rosé</h1>
       <p>R$ 4.000 </p>
-      <button>aDICIONAR À CESTA</button> 
+      <button>ADICIONAR À CESTA</button> 
     </div>
+
   </div>
 </body>
 </html>
