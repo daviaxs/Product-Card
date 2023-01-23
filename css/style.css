@@ -29,6 +29,7 @@ body {
 
 #product-image {
   position: relative;
+  cursor: pointer;
 }
 
 #product-image button {
